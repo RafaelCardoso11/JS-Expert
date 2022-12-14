@@ -1,0 +1,77 @@
+{
+  "EnviarLoteRpsEnvio": {
+    "$": {
+      "xmlns": "http://www.ginfes.com.br/servico_enviar_lote_rps_envio",
+      "xmlns:tip": "http://www.ginfes.com.br/tipos"
+    },
+    "NumeroLote": ["1809"], 
+    "Cnpj": ["20903238000134"],
+    "InscricaoMunicipal": ["114111"],
+    "QuantidadeRps": ["50"],
+    "ListaRps": [
+      {
+        "Rps": [
+          {
+            "tip:IdentificacaoRps": [
+              {
+                "tip:Numero": ["259408"],
+                "tip:Serie": ["NFSe"],
+                "tip:Tipo": ["1"]
+              }
+            ],
+            "tip:DataEmissao": ["2022-09-28T00:00:00"],
+            "tip:NaturezaOperacao": ["1"],
+            "tip:RegimeEspecialTributacao": ["1"],
+            "tip:OptanteSimplesNacional": ["1"],
+            "tip:IncentivadorCultural": ["2"],
+            "tip:Status": ["1"],
+            "tip:Servico": [
+              {
+                "tip:Valores": [
+                  {
+                    "tip:ValorServicos": ["22.47"],
+                    "tip:IssRetido": ["2"],
+                    "tip:ValorIss": ["0.00"],
+                    "tip:BaseCalculo": ["22.47"],
+                    "tip:Aliquota": ["0.0319"],
+                    "tip:ValorLiquidoNfse": ["22.47"]
+                  }
+                ],
+                "tip:ItemListaServico": ["1510"],
+                "tip:CodigoTributacaoMunicipio": ["829110001"],
+                "tip:Discriminacao": [
+                  "REFERENTE A MENSALIDADE DO MAIS SAUDE CARD"
+                ],
+                "tip:MunicipioPrestacaoServico": ["3301009"]
+              }
+            ],
+            "tip:Prestador": [
+              {
+                "tip:Cnpj": ["20903238000134"],
+                "tip:InscricaoMunicipal": ["114111"]
+              }
+            ],
+            "tip:Tomador": [
+              {
+                "tip:IdentificacaoTomador": [
+                  { "tip:CpfCnpj": [{ "tip:Cpf": ["11888413786"] }] }
+                ],
+                "tip:RazaoSocial": ["GILCARA DIAS CONSTANTINO"],
+                "tip:Endereco": [
+                  {
+                    "tip:Endereco": ["ESTRADA DO CANTO DO ENGENHO"],
+                    "tip:Numero": ["1"],
+                    "tip:Bairro": ["CANTO DO ENGENHO"],
+                    "tip:Cidade": ["3301009"],
+                    "tip:Estado": ["RJ"],
+                    "tip:Cep": ["28100000"]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

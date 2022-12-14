@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EnviarLoteRpsEnvio xmlns="http://www.ginfes.com.br/servico_enviar_lote_rps_envio" xmlns:tip="http://www.ginfes.com.br/tipos">
+  <NumeroLote>1809</NumeroLote>
+  <Cnpj>20903238000134</Cnpj>
+  <InscricaoMunicipal>114111</InscricaoMunicipal>
+  <QuantidadeRps>2</QuantidadeRps>
+  <ListaRps>
+    <Rps>
+      <tip:IdentificacaoRps>
+        <tip:Numero>259408</tip:Numero>
+        <tip:Serie>NFSe</tip:Serie>
+        <tip:Tipo>1</tip:Tipo>
+      </tip:IdentificacaoRps>
+      <tip:DataEmissao>2022-09-28T00:00:00</tip:DataEmissao>
+      <tip:NaturezaOperacao>1</tip:NaturezaOperacao>
+    </Rps>
+    <Rps>
+      <tip:IdentificacaoRps>
+        <tip:Numero>259408</tip:Numero>
+        <tip:Serie>NFSe</tip:Serie>
+        <tip:Tipo>1</tip:Tipo>
+      </tip:IdentificacaoRps>
+      <tip:DataEmissao>2022-09-28T00:00:00</tip:DataEmissao>
+      <tip:NaturezaOperacao>1</tip:NaturezaOperacao>
+    </Rps>
+  </ListaRps>
+</EnviarLoteRpsEnvio>
